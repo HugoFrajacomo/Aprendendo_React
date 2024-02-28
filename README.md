@@ -48,4 +48,27 @@ O terminal irá lhe dar algumas opções.
 
 3) Para rodar o projeto digite: npm run dev
 
+## Instalação Opcional
+
+1) Extensão do VS code para o React: ES7 + React/Redux/React-Native snippets. -> Permite o autocompletar de códigos em React
+![image](https://github.com/HugoFrajacomo/Aprendendo_React/assets/125396485/4cbdfcc9-99a6-48da-ab51-2d43aca551e5)
+
+2) Configurando o Emmet - Extensão para ajudar a escrever HTML/Css mais rápido<br>
+<p>File>Settings>Extensions e procure por Emmet.</p><br>
+<p>Adicione o javascriptreact ao include languages.</p>
+
+![image](https://github.com/HugoFrajacomo/Aprendendo_React/assets/125396485/8593702c-6357-47fd-8fe8-7ae497f0f3ac)
+
+3) Prettier - ferramenta de formatação de código que auxilia os desenvolvedores a manter um estilo de código limpo e agradável para trabalhar.
+![image](https://github.com/HugoFrajacomo/Aprendendo_React/assets/125396485/f7f51023-2791-41df-a704-2dbfc23cf96c)
+
+
+
+## Estrutura base
+
+1) node_modules -> Local onde ficam as dependências do projeto
+2) public -> Assets estáticos e HTML de inicialização
+3) scr -> Espaço de programação
+4) Scr/index.js -> Arquivo de inicilização do react
+5) scr/App.js -> Componente principal da aplicação
 
