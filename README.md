@@ -54,7 +54,7 @@ O terminal irá lhe dar algumas opções.
 ![image](https://github.com/HugoFrajacomo/Aprendendo_React/assets/125396485/4cbdfcc9-99a6-48da-ab51-2d43aca551e5)
 
 2) Configurando o Emmet - Extensão para ajudar a escrever HTML/Css mais rápido<br>
-<p>File>Settings>Extensions e procure por Emmet.</p><br>
+<p>File>preferences>Settings e procure por Emmet.</p><br>
 <p>Adicione o javascriptreact ao include languages.</p>
 
 ![image](https://github.com/HugoFrajacomo/Aprendendo_React/assets/125396485/8593702c-6357-47fd-8fe8-7ae497f0f3ac)
