@@ -72,3 +72,44 @@ O terminal irá lhe dar algumas opções.
 4) Scr/index.js -> Arquivo de inicilização do react
 5) scr/App.js -> Componente principal da aplicação
 
+## Criação de Componentes
+
+A aplicação utilizada para este topico será nomeada de "fundamentos". <br>
+
+1) Crie uma pasta componentes dentro de src chamada "components"
+2) Crie um arquivo .js com nome do seu componente
+3) Estrutura:
+![FirstComponent](https://github.com/HugoFrajacomo/Aprendendo_React/assets/125396485/5e5ea05d-d845-4b39-8acf-b20fe6d8d98d)
+<p>Devemos criar uma Arrow Function com o nome do nosso componente. Obrigatóriamente a função deve ter um return onde será inserida o bloco de código html do componente.</p>
+<p>É possivel inserir uma lógica ao componente antes do return.</p>
+<p>Também devemos declarar o export default do componente, que disponibilizará seu acesso na aplicação.</p>
+
+## Importar Componente
+
+Em app.js faremos a nossa importação do componente a aplicação. 
+
+1) utilize o comando import nome_do_componente from 'local_do_componente'. Obs: ao digitar o import com nome do componente é possivel clicar tab para autocompletar. Desta forma já estará no diretório correto do componente.
+2) Insira o componente utilizando a tag com o nome dele <nome_do_componente></nome_do_componente>
+
+Ex:
+![InsertComponete](https://github.com/HugoFrajacomo/Aprendendo_React/assets/125396485/53d97973-ddbb-4571-a48e-67fe9269600a)
+
+Componentes também podem ser importados para dentro de outros componentes. Da mesma forma que importamos na aplicação principal. Lembre-se que sempre que existe uma hierarquia entre os componentes. Logo a aplicação principal é componente pai de primeiro nível, a importada na aplicação principal é de segundo nível, já a que foi importada dentro do componente, será de terceiro nível. 
+
+## Template Expressions
+
+<p>Forma de executar códigos JS no JSX. Toda função JS deve estar dentro de colchetes. Ex:</p>
+
+![Js no JSX](https://github.com/HugoFrajacomo/Aprendendo_React/assets/125396485/8df938ee-6d8f-44bd-aa57-ed863f4dc1ee)
+
+## Eventos
+
+1) Button (Aplicação - fundamentos)
+![eventoButton](https://github.com/HugoFrajacomo/Aprendendo_React/assets/125396485/af242035-57e9-4aab-8a20-f2b5f0c94a73)
+
+<p>Para ter mais informações sobre os eventos podemos utilizar o parâmetro "e" na função do evento. Dentro delas temos que colocar console.log(e)</p>
+
+
+
+
+
