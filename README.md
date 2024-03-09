@@ -19,35 +19,49 @@ Obs: Para conferir se a atualização foi finalizada com sucesso, abra o CMD e d
 
 ## Instalando uma aplicação com React -- Utilizando create-react-app
 1) Abra o VS code na pasta da aplicação
-2) Abra o terminal intregrado ao VS e digite o seguinte comando: npx create-react-app nome-do-seu-projeto
+2) Abra o terminal intregrado ao VS e digite o seguinte comando:
+```
+npx create-react-app nome-do-seu-projeto
+```
 
-Obs: Caso ocorra algum erro digite os seguintes comandos
-   <ul>
-     <li>npm cache clean -f</li>
-     <li>npm install -g create-react-app</li>
-     <li>npx create-react-app nome-do-seu-projeto</li>
-   </ul>
-
-3) Digite o comando: cd .\nomeDoProjeto\
-4) Logo após, digite: NPM start
-
+Obs: Caso ocorra algum erro digite os seguintes comandos:
+```
+npm cache clean -f
+npm install -g create-react-app
+npx create-react-app nome-do-seu-projeto
+```
+3) Digite o comando para selecionar a pasta do projeto:
+```
+cd .\nomeDoProjeto\
+```
+5) Logo após, inicie a palicação com:
+```
+NPM start
+```
 
 ## Instalando uma aplicação com React -- npm create vite@latest
 
 1) Abra o VS code na pasta da aplicação
-2) Abra o terminal intregrado ao VS e digite o seguinte comando: npm create vite@latest
+2) Abra o terminal intregrado ao VS e digite o seguinte comando:
+```
+npm create vite@latest
+```
 
 O terminal irá lhe dar algumas opções.
+```
+Ok to proceed: Y
+Project name: nomeDoProjeto 
+```
+Na lista selecione React utilizando as setas do teclado ou o mouse
+```
+Selecione entre JavaScript ou TypeScript
+```
+3) Para rodar o projeto digite:
 
-   <ul>
-     <li>Ok to proceed: Y</li>
-     <li>Project name: nomeDoProjeto </li>
-      <li>Na lista selecione React utilizando as setas do teclado ou o mouse</li>
-      <li>Selecione entre JavaScript ou TypeScript</li>
-   </ul>
-
-3) Para rodar o projeto digite: npm run dev
-
+```
+npm run dev
+```
+   
 ## Instalação Opcional
 
 1) Extensão do VS code para o React: ES7 + React/Redux/React-Native snippets. -> Permite o autocompletar de códigos em React
