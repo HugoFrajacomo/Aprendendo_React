@@ -124,6 +124,36 @@ Componentes também podem ser importados para dentro de outros componentes. Da m
 <p>Para ter mais informações sobre os eventos podemos utilizar o parâmetro "e" na função do evento. Dentro delas temos que colocar console.log(e)</p>
 
 
+## Imagens
+<p>Existem 2 formas de importar imagens utilizando o react.</p>
+1) Importando imagens da pasta public. para realizar a importação basta utilizar /nome_da_imagem_formato. 
 
+```
+<img src="/img1.png" alt="logotipo do react" />
+```
+2) Importando a imagem através da atribuição de uma variável.
+
+Primeiro use o comando import para atribuir o caminho da imagem a uma variável
+
+```
+import img2 from "./assets/img2.webp";
+```
+Depois você poderá chamar a imagem utilizando as chaves {nome_da_variável}
+
+```
+<img src={img2} alt="imagem de teste" />
+```
+![code](https://github.com/HugoFrajacomo/Aprendendo_React/assets/125396485/d8888095-05ab-4431-83dd-4de0f5b7bc5f)
+
+## Hooks
+
+Hooks no React são funções especiais que permitem que componentes funcionais tenham estados, efeitos e outras características previamente disponíveis apenas em componentes de classe. Eles facilitam a gestão de estado e o ciclo de vida dos componentes, proporcionando uma abordagem mais concisa e legível para o desenvolvimento. Alguns hooks comuns incluem useState para gerenciar o estado, useEffect para lidar com efeitos colaterais em componentes funcionais, entre outros, contribuindo para um código mais modular e eficiente em termos de processamento de memória.
+
+Os hooks sempre serão inicializados utilizando o comando use após serem importados. Por exemplo: useState;
+
+A função useState retorna um valor e uma função para atualizar o valor. 
+![hook](https://github.com/HugoFrajacomo/Aprendendo_React/assets/125396485/79f95f9f-123c-4240-9722-1e368855aef3)
+
+React doc: https://react.dev/reference/react/useState
 
 
