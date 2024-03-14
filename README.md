@@ -56,7 +56,11 @@ Na lista selecione React utilizando as setas do teclado ou o mouse
 ```
 Selecione entre JavaScript ou TypeScript
 ```
-3) Para rodar o projeto digite:
+3) Agora abra a pasta do projeto recem criada e instale o NPM:
+```
+NPM install
+```
+4) Para rodar o projeto digite:
 
 ```
 npm run dev
